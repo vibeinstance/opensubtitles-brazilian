@@ -2,12 +2,12 @@
 // @name         OpenSubtitles: força pt-BR (/pb)
 // @namespace    opensubtitles-pt-br.user.js
 // @version      1.0
-// @icon         https://img.icons8.com/?size=100&id=LXhpSVCU82mF&format=png&color=000000
+// @icon         https://img.icons8.com/?size=100&id=nsHROZ0QAjiG&format=png&color=000000
 // @description  Redireciona opensubtitles.org para /pb (pt-BR) quando cair em /pt (pt-PT) ou na raiz.
 // @author       lourencosv (GPT)
 // @license      CC BY-NC 4.0
-// @updateURL    https://gist.githubusercontent.com/lourencosv//raw/opensubtitles-pt-br.user.js
-// @downloadURL  https://gist.githubusercontent.com/lourencosv//raw/opensubtitles-pt-br.user.js
+// @updateURL    https://gist.githubusercontent.com/lourencosv/3450244a50ec91bff19b12af376d2908/raw/opensubtitles-pt-br.user.js
+// @downloadURL  https://gist.githubusercontent.com/lourencosv/3450244a50ec91bff19b12af376d2908/raw/opensubtitles-pt-br.user.js
 // @match        https://www.opensubtitles.org/*
 // @run-at       document-start
 // @grant        none
