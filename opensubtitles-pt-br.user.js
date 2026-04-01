@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OpenSubtitles: força pt-BR
 // @namespace    opensubtitles-pt-br.user.js
-// @version      1.1
+// @version      1.2
 // @icon         https://img.icons8.com/?size=100&id=qlnCw19aQxaU&format=png&color=000000
 // @description  Redireciona opensubtitles para pt-BR quando cair na raiz.
 // @author       lourencosv (GPT)
@@ -30,6 +30,14 @@
 
   function looksLikeLocale(seg) {
     return /^[a-z]{2}(?:-[a-z]{2})?$/i.test(seg);
+  }
+
+  function isAnubisWrapper(u) {
+    const segments = splitPath(u.pathname);
+    return (
+      segments.includes('.within.website') ||
+      (u.searchParams.get('redir') || '').includes('.within.website')
+    );
   }
 
   function normalizeOrg(u) {
@@ -109,6 +117,10 @@
   }
 
   let changed = false;
+
+  if (isAnubisWrapper(url)) {
+    return;
+  }
 
   if (host.endsWith('opensubtitles.org')) {
     changed = normalizeOrg(url);
