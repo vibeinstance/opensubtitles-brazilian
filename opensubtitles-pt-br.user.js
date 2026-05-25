@@ -6,8 +6,8 @@
 // @description  Redireciona opensubtitles para pt-BR quando cair na raiz.
 // @author       lourencosv (GPT)
 // @license      CC BY-NC 4.0
-// @updateURL    https://gist.githubusercontent.com/lourencosv/3450244a50ec91bff19b12af376d2908/raw/opensubtitles-pt-br.user.js
-// @downloadURL  https://gist.githubusercontent.com/lourencosv/3450244a50ec91bff19b12af376d2908/raw/opensubtitles-pt-br.user.js
+// @updateURL    https://raw.githubusercontent.com/vibeinstance/opensubtitles-brazilian/refs/heads/main/opensubtitles-pt-br.user.js
+// @downloadURL  https://raw.githubusercontent.com/vibeinstance/opensubtitles-brazilian/refs/heads/main/opensubtitles-pt-br.user.js
 // @match        https://www.opensubtitles.org/*
 // @match        https://www.opensubtitles.com/*
 // @run-at       document-start
